@@ -1,0 +1,17 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    min-width: 230px;
+    padding-top: 30px;
+    align-items: center;
+    background-color: rgba(5, 41, 94, 0.623);
+    color: rgb(249, 235, 231);
+}
+
+.sidebar>div{
+    padding-bottom: 6px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}

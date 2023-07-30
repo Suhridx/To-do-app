@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Montserrat:wght@400;500&family=Rubik&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  background-color: rgba(189, 206, 211, 0.418);
+  width: auto;
+  height: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 40px;
+}
+.container>p{
+  width: 100%;
+}
+
+.home-cont{
+  display: flex;
+  flex-direction: row;
+  height: 97vh;
+}
+.right-cont{
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid red; */
+  width: 85vw;
+  
+}
+
+footer{
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding-top: 3px;
+  height: auto;
+}
