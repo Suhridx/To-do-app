@@ -1,0 +1,40 @@
+.task-title{
+    margin-top: 14px;
+}
+
+.task-box{
+    position: relative;
+    width: 270px;
+    height: 210px;
+    box-shadow: -11px 4px 16px -10px rgba(97, 87, 97, 0.555);
+    /* border: 5px solid black; */
+    background-color: rgba(227, 245, 215, 0.856);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.task-box>span{
+    padding-left: 6px;
+    /* display: none; */
+}
+.task-box>p{
+    margin-top: 30px;
+}
+
+.bottom{
+    position: absolute;
+    display: flex;
+    bottom: 16px;
+    /* left: 170px; */
+    column-gap: 10px;
+    align-items: center;
+}
+.bottom span{
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
+    background-color: rgba(120, 200, 160, 0.556);
+    padding: 5px 6px;
+    margin-right: 48px;
+}
+

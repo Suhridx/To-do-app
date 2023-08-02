@@ -1,0 +1,28 @@
+.flex-nav{
+    background-color: rgba(189, 206, 211, 0.418);
+    display: flex;
+    padding-left: 50px;
+    padding-right: 40px;
+    height: 150px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.flex-nav>input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    margin-right: 200px;
+}
+
+.flex-nav>div{
+    margin-right: auto;
+}
+
+.flex-nav h2{
+    margin-right: 80px;
+    margin-left: 20px;
+}
