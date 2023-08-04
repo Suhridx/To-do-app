@@ -19,7 +19,7 @@
   width: 100%;
 }
 .container>p>label{
-  margin-left: calc(-100px);
+  margin-left: calc(100px);
   margin-right: 8px;
 }
 
